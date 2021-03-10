@@ -1,0 +1,815 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldItalicMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldItalicMT.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial CE';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial CE';
+    src: url('../fonts/ArialCE.woff2') format('woff2'),
+        url('../fonts/ArialCE.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial CE';
+    src: url('../fonts/ArialCE-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ArialCE-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial CE MT';
+    src: url('../fonts/ArialCEMTBlack-Regular.woff2') format('woff2'),
+        url('../fonts/ArialCEMTBlack-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial CE';
+    src: url('../fonts/ArialCE-Italic.woff2') format('woff2'),
+        url('../fonts/ArialCE-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldItalicMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldItalicMT.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Arial-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-Lgt.woff2') format('woff2'),
+        url('../fonts/Arial-Lgt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-ItalicMT.woff2') format('woff2'),
+        url('../fonts/Arial-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-MdmItl.woff2') format('woff2'),
+        url('../fonts/Arial-MdmItl.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-LgtItl.woff2') format('woff2'),
+        url('../fonts/Arial-LgtItl.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-Mdm.woff2') format('woff2'),
+        url('../fonts/Arial-Mdm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-ItalicMT.woff2') format('woff2'),
+        url('../fonts/Arial-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/ArialNarrow-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ArialNarrow-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/ArialNarrow-Bold.woff2') format('woff2'),
+        url('../fonts/ArialNarrow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/ArialNarrow.woff2') format('woff2'),
+        url('../fonts/ArialNarrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Italic.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Black.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-ExtraLight.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Bold.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-LightItalic.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Light.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/TitilliumWeb-SemiBold.woff2') format('woff2'),
+        url('../fonts/TitilliumWeb-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+} 
+button:focus{
+    outline:0;
+}
+input[type="text"]:focus, textarea:focus{
+    outline:0;
+}
+.active, .accordion:hover {
+    background: none;  
+}
+.testimonial-slider .item {
+    padding: 20px;
+    background: #fff;
+}
+/*banner section */
+.banner-section img {
+    width: 100%;
+}
+.banner-section {
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 150px;
+} 
+.banner-left {
+    width: 67%;
+    display: inline-block;
+    vertical-align: top;
+} 
+.logo-wrap img {
+    width: 230px;
+    margin-top: 26px;
+} 
+.banner-text h2 {
+    color: #FFFFFF;
+    font-family: 'Titillium Web';
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    text-align: left;
+    line-height: 40px;
+    font-weight: 600;
+} 
+.banner-text {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+} 
+.banner-text h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: Arial;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    text-align: left;
+    font-weight: 100;
+} 
+.common-btn button {
+    background-color: #DD5A6A;
+    border-radius: 3.2px; 
+    height: 45px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    border: 1px solid #DD5A6A;
+}
+.common-btn button:hover {
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    border: 1px solid #fff;
+    background: none;
+}
+/*form */
+.banner-right {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+} 
+.banner-form {
+    background: #fff;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    padding: 20px  30px;
+} 
+.form-head {
+    color: #213559;
+    font-family: 'Open Sans';
+    font-size: 20.08px;
+    line-height: 24px;
+    width: 127px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 20px;
+} 
+.banner-form input[type="text"],.banner-form textarea {
+    border: 0.87px solid #D0D0D0;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 13px;
+}  
+.banner-form textarea {
+    height: 75px;
+} 
+.captcha-box {
+    border: 0.87px solid #D0D0D0;
+    margin-bottom: 20px;
+    padding: 23px 20px;
+    height: 75px;
+} 
+.captcha-box-left input[type="checkbox"] {
+    background-color: #FFFFFF;
+    border: 0.87px solid #979797;
+    border-radius: 0;
+    width: 18px;
+    height: 18px;
+    margin: 3px 0;
+} 
+.captcha-box-left span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+} 
+.banner-form .common-btn button {
+    border-radius: 0;
+    background-color: #DD5A6A;
+    width: 111px;
+    height: 44px;
+}
+.banner-form .common-btn button:hover {
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    border: 1px solid #dd5a6a;
+    background: none;
+    color: #dd5a6a;
+}
+/*intro section */
+.intro-section {
+    padding: 85px 150px;
+    font-size: 0;
+} 
+.intro-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 2%;
+} 
+.intro-left img {
+    width: 100%;
+} 
+.intro-right {
+    width: 58%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+} 
+.intro-top { 
+    background: rgb(59,174,197); 
+    background: linear-gradient(90deg, rgba(59,174,197,1) 0%, rgba(59,174,197,1) 30%, rgba(95,122,233,1) 82%); 
+    border-radius: 4px; 
+    color: #FFFFFF; 
+    font-family: 'Open Sans'; 
+    font-size: 17px; 
+    line-height: 26px; 
+    text-align: left; 
+    padding: 20px;
+} 
+.intro-right ul li {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    list-style: none;
+    border-bottom: 1px solid #ECECFF;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+} 
+.intro-right ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+} 
+.intro-right ul li:last-child {
+    border: 0;
+}
+/* doctor section */
+.doctor-section {
+    padding: 25px 150px;
+}
+.divider {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+} 
+.divider:after {
+    position: absolute;
+    content: "";
+    background: #e7e1e1;
+    width: 79%;
+    height: 1px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    bottom: 35px;
+}
+.common-heading {
+    color: #22B78E;
+    font-family: 'Open Sans';
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: 44px;
+    text-align: left;
+} 
+.doctors-section-wrap {
+    font-size: 0;
+    margin-top: 50px;
+} 
+.doctors-left,.doctors-right {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    text-align: center;
+    background-color: #F9F9FF;
+    border-radius: 4px;
+} 
+.doctors-left {
+    margin-right: 2%;
+} 
+.common-subheading {
+    color: #22B78E;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    padding: 25px 0;
+    text-align: center;
+} 
+.doc-details h3 {
+    color: #1D5AA6;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+    margin: 0;
+} 
+.doc-details p {
+    color: #1D5AA6;
+    font-family: 'Arial';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-align: center;
+} 
+.doc-info {
+    color: #000000;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    width: 86%;
+    margin: auto;
+    margin-top: 28px;
+} 
+.doctors-tab {
+    padding: 0 20px;
+    margin-bottom: 40px;
+} 
+.doc-btn button {
+    background: rgb(59,174,197);
+    background: linear-gradient(
+90deg
+, rgba(59,174,197,1) 0%, rgba(59,174,197,1) 30%, rgba(95,122,233,1) 82%);
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+} 
+.doc-details {
+    position: relative;
+} 
+.doc-details:after {content: "";position: absolute;
+width: 10%;
+background: #22B78E;
+height: 2px;
+left: 0;
+right: 0;
+margin: 0 auto;
+bottom: -14px;
+} 
+/* info section */
+.info-section {
+    padding: 25px 150px;
+} 
+.info-list ul li {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 39px; 
+    text-align: left;
+    list-style-image: url('../images/hosp.png');
+    margin-bottom: 10px;
+} 
+.info-list ul {
+    margin-top: 20px;
+} 
+/* tab section */
+.tab-section {
+    padding: 25px 150px;
+} 
+.tab-section-wrap {
+    font-size: 0;
+    margin-top: 40px;
+} 
+.tabs {
+    font-size: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1); 
+    height: 170px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+    width: 23%;
+    margin-bottom: 2%;
+}
+.tab-info {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 21px; 
+    text-align: left;
+} 
+.tab-image img {width: 30px;}
+
+.tab-image {
+    min-height: 54px;
+    margin-bottom: 14px;
+}
+/* testimony */
+.testimonial-slider .owl-nav {
+    position: absolute;
+    top: -113px;
+    right: 0;
+} 
+.testimonial-section {
+    padding: 25px 150px;
+    position: relative;
+} 
+.testimonial-wrap p {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 15px;
+    line-height: 21px;
+    text-align: left;
+    width: 50%;
+    margin: 20px 0;
+} 
+.testimonial-tab {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04); 
+    padding: 30px;
+    position: relative;
+} 
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 60px;
+}
+.owl-dots {
+    display: none;
+}
+.user-img img {
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+} 
+.user-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: 10px;
+} 
+.user-name h4 {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 22px;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+} 
+.user-name p {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    position: relative;
+} 
+.quote-img {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+} 
+.user-name p:after {
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    width: 36%;
+    height: 1px;
+    background: #e8e7e7;
+    left: 0;
+} 
+.user-text {
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 15px;
+    font-style: italic;
+    line-height: 21px;
+    text-align: left;
+    width: 89%;
+    margin-top: 38px;
+} 
+.blue-color button {
+    background: #00449C;
+    font-size: 16px;
+    border: #00449C;
+}
+.blue-color button:hover {
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    border: 1px solid #004498;
+    background: none;
+    color: #004498;
+}
+.blue-color {
+    margin: 50px 0;
+    text-align: center;
+}
+/* footer*/
+footer {
+    background: #272727;
+    clear: both;
+    overflow: hidden;
+} 
+.social-media-section {
+    text-align: center;
+    margin: 55px auto 20px;
+    position: relative;
+    width: 75%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+} 
+.social-media-section ul {
+    text-align: center;
+    margin: 26px 0;
+    padding: 0;
+} 
+.social-media-section ul li {
+    display: inline;
+} 
+.social-media-section ul li a {
+    padding: 0 3px;
+} 
+.go-to-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+} 
+.copy-right {
+    color: #b7aeae;
+    font-family: 'Arial';
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    line-height: 17px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+/*panel*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+} 
+.active, .accordion:hover {
+  background-color: #ccc; 
+} 
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.panel-section {
+    padding: 25px 150px;
+} 
+.panel-section .accordion {
+    background: #fff;
+    border-bottom: 1px solid #e9e7e7;
+    color: #1D5AA6;
+    font-family: 'Arial';
+    font-size: 22px;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 500;
+    width: 100%;
+    padding: 22px 0;
+} 
+button.accordion img {
+    float: right;
+} 
+.panel-section .panel ul li {
+    list-style-image: url(../images/double-tick.png);
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 30px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+} 
+.panel-section .panel ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
